@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    font-family: "Secular One", sans-serif;
+    color: #895159;
 }
 body {
     width: 99vw;
@@ -11,47 +13,76 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-header {
-    width: 99vw;
-    height: 3vh;
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
+    background-color: #fffcf5;
     position: relative;
 }
+/* INICIO DO HEADER */
+header {
+    width: 99vw;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 1rem;
 
-header > figure > img {
+}
+
+.linhaSuperior {
+    width: 100%;
+    height: 4rem;
+    border-bottom: .2rem solid rgba(198, 198, 198, 0.562);
+}
+
+.categoriasHeader {
+    width: 100%;
+    height: 7rem;
+    border-top: .2rem solid rgba(198, 198, 198, 0.562);
+}
+
+.logo {
     position: absolute;
-    left: 76rem;
-    top: 0.5rem;
+    top: 7rem;
+    left: 50rem;
+}
+
+.lupa {
+    position: absolute;
+    left: 80rem;
+    top: 4.6rem;
     width: 1.7rem;
 }
 
-ul {
-    display: flex;
-    gap: 15rem;
-    margin-left: 15rem;
-}
-nav > ul > li {
-    list-style: none;
-    font-size: 1.5rem;
-}
-#pesquisa {
-    width: 30rem;
-    height: 3vh;
-    font-size: 1.2rem;
-    border-radius: 2rem;
-    padding-left: 4rem;
+.centralizarHeader {
+    width: 18rem;
 }
 
-#botao {
-    width: 7rem;
-    height: 2.2rem;
-    margin-left: 1rem;
-    font-size: 1.5rem;
+#pesquisa {
+    width: 15vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    border-radius: 1.3rem;
+    padding-left: 4rem;
+    border: 0;
+    background-color: #dfb1a12c;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px inset;
 }
+
+#pesquisa::placeholder {
+    color: rgba(137, 81, 89, 0.342)
+}
+.icones {
+    display: flex;
+    gap: 3rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.icones > figure > img {
+    width: 4rem;
+}
+/* FIM DO HEADER */
 main {
     width: 99vw;
     height: 100%;
@@ -60,57 +91,74 @@ main {
     justify-content: center;
     align-items: center;
 }
-
+/* INICIO MENU NAVEGAÇÃO */
+.categoriasHeader
+/* FIM MENU NAVEGAÇÃO */
+/* CARROSEL */
 .carrossel {
     width: 80vw;
     height: 40vh;
     margin-top: 2rem;
-    border: 0.3rem solid black;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 5rem;
 }
+
+.carousel-inner {
+    max-width: min-content;
+}
+
+.d-block {
+    width: 110rem;
+}
+
+/* CARROSEL FINAL */
 
 .categorias {
     width: 80vw;
     height: 30vh;
     margin-top: 2rem;
-    border: 0.3rem solid black;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 7rem;
+    border-bottom: rgba(198, 198, 198, 0.562) .2rem solid;
 }
 
 .caes {
     width: 10vw;
     height: 20vh;
-    border: 0.3rem solid black;
+    border-radius: 50%;
+    background-color: #dfb1a141 ;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
+    box-shadow: .5rem .5rem .5rem #afa39f94;
 }
 
 .gatos {
     width: 10vw;
     height: 20vh;
-    border: 0.3rem solid black;
+    border-radius: 50%;
+    background-color: #dfb1a141;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
+    box-shadow: .5rem .5rem .5rem #afa39f94;
 }
 
 .medicamentos {
     width: 10vw;
     height: 20vh;
-    border: 0.3rem solid black;
+    border-radius: 50%;
+    background-color: #dfb1a141;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
+    box-shadow: .5rem .5rem .5rem #afa39f94;
 }
 
 .adocao {
@@ -126,11 +174,23 @@ main {
 
 footer {
     width: 99vw;
-    height: 30vh;
+    height: 25vh;
     margin-top: 2rem;
-    border: 0.3rem solid black;
+    background-color: #89515981 ;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 5rem;
+    font-size: 2.5rem;
+    font-family: "Roboto", sans-serif;
+    box-shadow: #afa39f69 .3rem -0.3rem 0.2rem ;
+}
+
+footer a {
+    color: #895159;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+footer a:hover {
+    color: #374375;
 }
