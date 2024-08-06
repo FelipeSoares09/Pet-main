@@ -10,7 +10,7 @@
 <body>
   <!-- PADRÃO: INICIO HEADER -->
     <div class="linhaSuperior"></div>
-    <figure><img class="logo" src="Imagens/Logo menor.png" alt=""></figure>
+    <figure><img class="logoPetMain" src="Imagens/Logo menor.png" alt=""></figure>
     <header>
         <div class="centralizarHeader"></div>
             <figure><img class="lupa" src="Imagens/lupa.png" alt=""></figure>
@@ -39,7 +39,7 @@
   <!-- PADRÃO: FIM HEADER -->
         <!-- CARROSEL -->
         <section class="carrossel">
-          <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div id="carouselExampleDark" class="carousel slide">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -84,15 +84,26 @@
 
 <!-- CATEGORIAS -->
           <div class="categorias">
-              <div class="medicamentos">
-                  <p>Medicametos</p>
-              </div>
-              <div class="acessorios">
-                  <p>Acessórios</p>
-              </div>
-              <div class="caes">
-                  <p>Rações e Petiscos</p>
-              </div>
+            <h1>Categorias</h1>
+
+              <a href="#">
+                <div class="medicamentos">
+                  <p class="categoriaTextos">Medicamentos</p>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="acessorios">
+                  <p class="categoriaTextos">Acessórios</p>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="racoes">
+                  <p class="categoriaTextos">Rações e Petiscos</p>
+                </div>
+              </a>
+
             </div>
 <!-- FIM CATEGORIAS -->
  
@@ -101,17 +112,17 @@
         </section>
     </main>
     <footer>
+        <h2>Parceiros:</h2>
       <section class="patrocinadores">
-        <h2>Parceiros</h2>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
-        <figure></figure>
+        <figure class="logo"> <img src="Imagens/whiskas-logo.png" alt="whiskas logo"></figure>
+        <figure class="logo"> <img src="Imagens/petz-logo-0.png" alt=""></figure>
+        <figure class="logo"> <img src="Imagens/petlove-saude-logo.webp" alt=""></figure>
+        <figure class="logo"> <img src="Imagens/Logo-Bellokao.png" alt=""> </figure>
 
       </section>
       
-      <section>
-        <p>Designed by: Felipe Soares; Giulia Custódio; Guilherme Lobo; Ingrid Xavier; Jhonata Rodrigues; Marcus Santos; Sabrinna Gomes | Studants from - <a href="https://sp.senai.br/unidade/manutencao/">Senai Frederico Jacob, Tatuapé, SP.</a> </p>
+      <section class="autores">
+        <p>Designed by: Felipe Soares; Giulia Custódio; Guilherme Lobo; Ingrid Xavier; Jhonata Rodrigues; Marcus Santos; Sabrinna Gomes | Studants from - <a href="https://sp.senai.br/unidade/manutencao/">Senai Frederico Jacob, Tatuapé, SP.</a></p>
       </section>
     </footer>
 

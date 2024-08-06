@@ -26,6 +26,7 @@ body {
     background-color: #fffcf5;
     position: relative;
 }
+/* PADRÃO: INICIO HEADER */ 
 /* INICIO DO HEADER */
 header {
     width: 99vw;
@@ -36,13 +37,15 @@ header {
     margin-top: 0;
     position: relative;
     padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: #8951590a;
+    border-top: .2rem solid rgba(198, 198, 198, 0.562);
 
 }
 
 .linhaSuperior {
     width: 100%;
-    height: 4rem;
-    border-bottom: .2rem solid rgba(198, 198, 198, 0.562);
+    height: 5vh;
 }
 
 .categoriasHeader {
@@ -51,16 +54,16 @@ header {
     width: 100%;
 }
 
-.logo {
+.logoPetMain {
     position: absolute;
-    top: 7rem;
-    left: 50rem;
+    top: 8rem;
+    left: 47rem;
 }
 
 .lupa {
     position: absolute;
     left: 75rem;
-    top: 4.6rem;
+    top: 5rem;
     width: 1.7rem;
 }
 
@@ -82,6 +85,7 @@ header {
 #pesquisa::placeholder {
     color: rgba(137, 81, 89, 0.342)
 }
+
 .icones {
     display: flex;
     gap: 3rem;
@@ -127,7 +131,7 @@ main {
 }
 
 /* FIM MENU NAVEGAÇÃO */
-
+/* PADRÃO: FIM HEADER */
 
 /* CARROSEL */
 .carrossel {
@@ -141,24 +145,25 @@ main {
 
 .carousel-inner {
     max-width: min-content;
+     
 }
 
 .d-block {
-    width: 110rem;
+    width: 130rem;
 }
 
 .promo-carrosel {
     color: #895159;
-    background: #DFAEA1;
-    border-radius: 16px;
+    background: #F8EBE2;
+    border-radius: 18px;
     max-width: 22rem;
-    font-size: 5rem;
+    font-size: 5rem; 
 }
 
 .text-carrosel {
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     text-align: center;
     gap: 2rem;
 }
@@ -172,26 +177,36 @@ main {
 
 .categorias {
     width: 80vw;
-    height: 30vh;
+    height: 35vh;
     margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 7rem;
     border-bottom: rgba(198, 198, 198, 0.562) .2rem solid;
+    margin: 9rem 0;
+}
+
+.categorias h1{
+    position: absolute;
+    top: 75rem;
+    font-size: 5rem;
 }
 
 .racoes {
     width: 10vw;
     height: 20vh;
     border-radius: 50%;
-    background-color: #dfb1a141 ;
-    background-image: url(/Imagens/);
+    background-color: #dfb1a141;
+    background-image: url(Imagens/tigela-de-cachorro-vazia\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
     box-shadow: .5rem .5rem .5rem #afa39f94;
+    color: rgba(226, 199, 199, 0.89);
 }
 
 .acessorios {
@@ -199,11 +214,15 @@ main {
     height: 20vh;
     border-radius: 50%;
     background-color: #dfb1a141;
+    background-image: url(Imagens/bolsa-de-compras\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
     box-shadow: .5rem .5rem .5rem #afa39f94;
+    color: rgba(226, 199, 199, 0.89);
 }
 
 .medicamentos {
@@ -211,11 +230,15 @@ main {
     height: 20vh;
     border-radius: 50%;
     background-color: #dfb1a141;
+    background-image: url(Imagens/medicina\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
     box-shadow: .5rem .5rem .5rem #afa39f94;
+    color: rgba(226, 199, 199, 0.89);
 }
 
 .caes {
@@ -227,7 +250,7 @@ main {
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
-    box-shadow: .5rem .5rem .5rem #afa39f94;
+    box-shadow: .5rem .5rem .5re #afa39f94;
 }
 
 .adocao {
@@ -239,6 +262,28 @@ main {
     align-items: center;
     justify-content: center;
     font-size: 5rem;   
+}
+
+.categorias a {
+    text-decoration: none;
+}
+
+.racoes:hover .categoriaTextos, .acessorios:hover .categoriaTextos, .medicamentos:hover .categoriaTextos {
+    background-image: url(#);
+    opacity: 100%;
+    color: rgba(226, 199, 199, 0.89);
+}
+
+.racoes:hover, .acessorios:hover, .medicamentos:hover {
+    background-color: #374375;
+    overflow: hidden;
+}
+
+.categoriaTextos {
+    position: relative;
+    transition: .5s;
+    opacity: 0%;
+    font-size: 2rem;
 }
 
 footer {
@@ -253,6 +298,9 @@ footer {
     font-family: "Roboto", sans-serif;
     box-shadow: #afa39f69 .3rem -0.3rem 0.2rem ;
     gap: 9rem;
+    position: relative;
+    text-align: center;
+    align-content: center;
 }
 
 footer a {
@@ -264,4 +312,19 @@ footer a {
 
 footer a:hover {
     color: #374375;
+}
+
+.logo img {
+   width: 12rem;
+}
+
+.autores {
+    position: absolute;
+    bottom: 0;
+}
+
+.patrocinadores {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
 }
