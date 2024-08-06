@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop - Adoção</title>
+</head>
+<body>
+    <main>
+        <form action="" method="post">
+            <input type="search" name="pesquisa" id="pesquisa" placeholder="Pesquisar...">
+            <input type="button" value="Buscar">
+        </form>
+
+        <section class="formulario">
+            <h1>PREENCHA O FORMULÁRIO DE ADOÇÃO:</h1>
+            <form action="" method="post">
+                <label for="Nome"><strong>Nome Completo:</strong></label>
+                <input type="text" name="Nome" id="Nome" required><br>
+                <label for="E-mail"><strong>E-mail: </strong></label>
+                <input type="email" name="E-mail" id="email" required><br>
+                <label for="Telefone"><strong>Telefone: </strong></label>
+                <input type="tel" name="Telefone" id="telefone" required><br>
+                <label for="Nome"><strong>Nome do Pet: </strong></label>
+                <input type="text" name="Nome_ani" id="N_animal" required><br>
+                <label for="Texto"><strong>Conte um pouco sobre você e porque quer adotar:</strong></label><br>
+                <textarea name="Texto" id="texto" style="width: 40rem;" rows="10"></textarea><br>
+                <input type="button" value="Enviar" onclick="msg()">
+            </form>
+        </section>
+        <script>
+            function msg(){
+                alert("Dados enviados com sucesso!");
+            }
+        </script>
+    </main>
+</body>
+</html>
