@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+/* font-family: "Secular", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: "Roboto", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies&display=swap');
+/* font-family: "Rowdies", sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+
+body {
+    width: 99vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffcf5;
+    position: relative;
+}
+
+main {
+    width: 99vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 99vw;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: #8951590a;
+    border-top: .2rem solid rgba(198, 198, 198, 0.562);
+
+}
+
+.linhaSuperior {
+    width: 100%;
+    height: 5vh;
+}
+
+.categoriasHeader {
+    border-top: .2rem solid rgba(198, 198, 198, 0.562);
+    height: 3rem;
+    width: 100%;
+}
+
+.logoPetMain {
+    position: absolute;
+    top: 8rem;
+    left: 47rem;
+}
+
+.lupa {
+    position: absolute;
+    left: 75rem;
+    top: 5rem;
+    width: 1.7rem;
+}
+
+.centralizarHeader {
+    width: 18rem;
+}
+
+#pesquisa {
+    width: 20vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    border-radius: 1.3rem;
+    padding-left: 4rem;
+    border: 0;
+    background-color: #dfb1a12c;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px inset;
+}
+
+#pesquisa::placeholder {
+    color: rgba(137, 81, 89, 0.342)
+}
+
+.icones {
+    display: flex;
+    gap: 3rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.icones > figure > img {
+    width: 4rem;
+}
+
+/* FIM HEADER */
+
+/* COMEÇO MENU NAV */
+
+.categorias_header {
+    width: 80vw;
+    height: 8vh;
+}
+
+.categorias_header > nav > ul {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.categorias_header > nav > ul > li {
+    font-size: 2.5rem;
+    list-style: none;
+    font-family: "Secular One", sans-serif;
+    color: #DFAEA1;
+}
+
+.categorias_header > nav > ul > li:hover {
+    color: #374375;
+    cursor: pointer;
+    border-bottom: 0.3rem solid #374375;
+}
+/* FINAL HEADER */
+
+
+/* COMEÇO PRODUTOS */
+
+.container_produtos {
+    display: flex;
+    width: 40rem;
+    height: 60rem;
+    border-radius: 6%;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.2rem;
+
+}
+
+.produtos {
+    padding: 5rem;
+}
+
+.img_product {
+    width: 34rem;
+    height: 52rem;
+    background: #F8EBE2;
+    border-radius: 16px;
+}
+
+.text-product{
+    font-size: 2.5rem;
+    word-break: 5rem;
+    width: 34rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.agrupamento_texto {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.preco-product {
+    font-size: 2.5rem;
+    color: #830013;
+    word-break: 5rem;
+    width: 34rem;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.carrinho_pet{
+        width: 25rem;
+        height: 5rem;
+        background: #374375;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        font-family: "Roboto", sans-serif;
+        font-size: 2.6rem;
+        color: white;
+        
+}
+
+
+
+.carrinho_pet > img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.campo{
+    font-family: "Secular", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.tamanho-texto{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.barra{
+    background: rgba(198, 198, 198, 0.562);
+    width: 100vw;
+    height: 0.2rem;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    width: 99vw;
+    height: 25vh;
+    margin-top: 2rem;
+    background-color: #89515981 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: "Roboto", sans-serif;
+    box-shadow: #afa39f69 .3rem -0.3rem 0.2rem ;
+    gap: 9rem;
+    position: relative;
+    text-align: center;
+    align-content: center;
+}
+
+footer a {
+    display: flex;
+    color: #895159;
+    list-style-type: none;
+    font-size: 1.1rem;
+}
+
+footer a:hover {
+    color: #374375;
+}
+
+.logo img {
+   width: 12rem;
+}
+
+.autores {
+    position: absolute;
+    bottom: 0;
+}
+
+.patrocinadores {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
