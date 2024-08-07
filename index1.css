@@ -328,3 +328,72 @@ footer a:hover {
     flex-direction: row;
     gap: 5rem;
 }
+
+.favorites {
+    width: 80vw;
+    height: 55vh;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: rgba(198, 198, 198, 0.562) .2rem solid;
+    margin: 9rem 0;
+    gap: 6rem;
+    padding: 0 0 3rem 0;
+}
+
+
+.favorites h1 {
+    position: absolute;
+    top: 114rem;
+    font-size: 5rem;
+}
+
+.Racao {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: 25rem;
+    background-color: #dfbfb6a2;
+    border-radius: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    color: #374375;
+    box-shadow: 1rem 1rem 1rem rgba(155, 155, 155, 0.616);
+}
+
+.Racao img{
+    border-radius: 3rem;
+    height: 18rem;
+}
+
+.adicionar {
+    border-radius: 2rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+.color {
+    width: 20rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F8EBE2;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    padding: 1.5rem;
+}
+
+.adicionar {
+    border: none;
+}
+
+.adicionar:hover {
+    color: #ffffff;
+    background-color: #374375;
+    box-shadow: .3rem .3rem 0rem rgba(0, 0, 0, 0.233);
+}
