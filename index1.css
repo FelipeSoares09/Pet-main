@@ -1,133 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 /* font-family: "Secular", sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* font-family: "Roboto", sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies&display=swap");
 /* font-family: "Rowdies", sans-serif; */
 
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
-    font-family: 'Secular One', sans-serif;
-    color: #895159;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Secular One", sans-serif;
+  color: #895159;
 }
 body {
-    width: 99vw;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #fffcf5;
-    position: relative;
+  width: 99vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffcf5;
+  position: relative;
 }
-/* PADRÃO: INICIO HEADER */ 
+/* PADRÃO: INICIO HEADER */
 /* INICIO DO HEADER */
 header {
-    width: 99vw;
-    height: 13vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
-    position: relative;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    background-color: #8951590a;
-    border-top: .2rem solid rgba(198, 198, 198, 0.562);
-
+  width: 99vw;
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  position: relative;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: #8951590a;
+  border-top: 0.2rem solid rgba(198, 198, 198, 0.562);
 }
 
 .linhaSuperior {
-    width: 100%;
-    height: 5vh;
+  width: 100%;
+  height: 5vh;
 }
 
 .categoriasHeader {
-    border-top: .2rem solid rgba(198, 198, 198, 0.562);
-    height: 3rem;
-    width: 100%;
+  border-top: 0.2rem solid rgba(198, 198, 198, 0.562);
+  height: 3rem;
+  width: 100%;
 }
 
 .logoPetMain {
-    position: absolute;
-    top: 8rem;
-    left: 47rem;
+  position: absolute;
+  top: 8rem;
+  left: 47rem;
 }
 
 .lupa {
-    position: absolute;
-    left: 75rem;
-    top: 5rem;
-    width: 1.7rem;
+  position: absolute;
+  left: 75rem;
+  top: 5rem;
+  width: 1.7rem;
 }
 
 .centralizarHeader {
-    width: 18rem;
+  width: 18rem;
 }
 
 #pesquisa {
-    width: 20vw;
-    height: 5vh;
-    font-size: 1.2rem;
-    border-radius: 1.3rem;
-    padding-left: 4rem;
-    border: 0;
-    background-color: #dfb1a12c;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px inset;
+  width: 20vw;
+  height: 5vh;
+  font-size: 1.2rem;
+  border-radius: 1.3rem;
+  padding-left: 4rem;
+  border: 0;
+  background-color: #dfb1a12c;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px inset;
 }
 
 #pesquisa::placeholder {
-    color: rgba(137, 81, 89, 0.342)
+  color: rgba(137, 81, 89, 0.342);
 }
 
 .icones {
-    display: flex;
-    gap: 3rem;
-    margin-left: 5rem;
-    margin-top: 1rem;
+  display: flex;
+  gap: 3rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
 }
 
 .icones > figure > img {
-    width: 4rem;
+  width: 4rem;
 }
 /* FIM DO HEADER */
 main {
-    width: 99vw;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 99vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /* INICIO MENU NAVEGAÇÃO */
 .categorias_header {
-    width: 80vw;
-    height: 8vh;
+  width: 80vw;
+  height: 8vh;
 }
 
 .categorias_header > nav > ul {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
 }
 
 .categorias_header > nav > ul > li {
-    font-size: 2.5rem;
-    list-style: none;
-    font-family: "Secular One", sans-serif;
-    color: #DFAEA1;
+  font-size: 2.5rem;
+  list-style: none;
+  font-family: "Secular One", sans-serif;
+  color: #dfaea1;
 }
 
 .categorias_header > nav > ul > li:hover {
-    color: #374375;
-    cursor: pointer;
-    border-bottom: 0.3rem solid #374375;
+  color: #374375;
+  cursor: pointer;
+  border-bottom: 0.3rem solid #374375;
 }
 
 /* FIM MENU NAVEGAÇÃO */
@@ -135,265 +133,267 @@ main {
 
 /* CARROSEL */
 .carrossel {
-    width: 80vw;
-    height: 40vh;
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 80vw;
+  height: 40vh;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .carousel-inner {
-    max-width: min-content;
-     
+  max-width: min-content;
 }
 
 .d-block {
-    width: 130rem;
+  width: 130rem;
 }
 
 .promo-carrosel {
-    color: #895159;
-    background: #F8EBE2;
-    border-radius: 18px;
-    max-width: 22rem;
-    font-size: 5rem; 
+  color: #895159;
+  background: #f8ebe2;
+  border-radius: 18px;
+  max-width: 22rem;
+  font-size: 5rem;
 }
 
 .text-carrosel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
 }
 
 .text-two-carrosel {
-    color: #374375;
-    font-size: 5rem;
+  color: #374375;
+  font-size: 5rem;
 }
 
 /* CARROSEL FINAL */
 
 .categorias {
-    width: 80vw;
-    height: 35vh;
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 7rem;
-    border-bottom: rgba(198, 198, 198, 0.562) .2rem solid;
-    margin: 9rem 0;
+  width: 80vw;
+  height: 35vh;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  border-bottom: rgba(198, 198, 198, 0.562) 0.2rem solid;
+  margin: 9rem 0;
 }
 
-.categorias h1{
-    position: absolute;
-    top: 75rem;
-    font-size: 5rem;
+.categorias h1 {
+  position: absolute;
+  top: 75rem;
+  font-size: 5rem;
 }
 
 .racoes {
-    width: 10vw;
-    height: 20vh;
-    border-radius: 50%;
-    background-color: #dfb1a141;
-    background-image: url(Imagens/tigela-de-cachorro-vazia\ 1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    box-shadow: .5rem .5rem .5rem #afa39f94;
-    color: rgba(226, 199, 199, 0.89);
+  width: 10vw;
+  height: 20vh;
+  border-radius: 50%;
+  background-color: #dfb1a141;
+  background-image: url(Imagens/tigela-de-cachorro-vazia\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem #afa39f94;
+  color: rgba(226, 199, 199, 0.89);
 }
 
 .acessorios {
-    width: 10vw;
-    height: 20vh;
-    border-radius: 50%;
-    background-color: #dfb1a141;
-    background-image: url(Imagens/bolsa-de-compras\ 1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    box-shadow: .5rem .5rem .5rem #afa39f94;
-    color: rgba(226, 199, 199, 0.89);
+  width: 10vw;
+  height: 20vh;
+  border-radius: 50%;
+  background-color: #dfb1a141;
+  background-image: url(Imagens/bolsa-de-compras\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem #afa39f94;
+  color: rgba(226, 199, 199, 0.89);
 }
 
 .medicamentos {
-    width: 10vw;
-    height: 20vh;
-    border-radius: 50%;
-    background-color: #dfb1a141;
-    background-image: url(Imagens/medicina\ 1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    box-shadow: .5rem .5rem .5rem #afa39f94;
-    color: rgba(226, 199, 199, 0.89);
+  width: 10vw;
+  height: 20vh;
+  border-radius: 50%;
+  background-color: #dfb1a141;
+  background-image: url(Imagens/medicina\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem #afa39f94;
+  color: rgba(226, 199, 199, 0.89);
 }
 
 .caes {
-    width: 10vw;
-    height: 20vh;
-    border-radius: 50%;
-    background-color: #dfb1a141;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    box-shadow: .5rem .5rem .5re #afa39f94;
+  width: 10vw;
+  height: 20vh;
+  border-radius: 50%;
+  background-color: #dfb1a141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0.5rem 0.5rem 0.5re #afa39f94;
 }
 
 .adocao {
-    width: 80vw;
-    height: 40vh;
-    margin-top: 2rem;
-    border: 0.3rem solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5rem;   
+  width: 80vw;
+  height: 40vh;
+  margin-top: 2rem;
+  border: 0.3rem solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
 }
 
 .categorias a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.racoes:hover .categoriaTextos, .acessorios:hover .categoriaTextos, .medicamentos:hover .categoriaTextos {
-    background-image: url(#);
-    opacity: 100%;
-    color: rgba(226, 199, 199, 0.89);
+.racoes:hover .categoriaTextos,
+.acessorios:hover .categoriaTextos,
+.medicamentos:hover .categoriaTextos {
+  background-image: url(#);
+  opacity: 100%;
+  color: rgba(226, 199, 199, 0.89);
 }
 
-.racoes:hover, .acessorios:hover, .medicamentos:hover {
-    background-color: #374375;
-    overflow: hidden;
+.racoes:hover,
+.acessorios:hover,
+.medicamentos:hover {
+  background-color: #374375;
+  overflow: hidden;
 }
 
 .categoriaTextos {
-    position: relative;
-    transition: .5s;
-    opacity: 0%;
-    font-size: 2rem;
+  position: relative;
+  transition: 0.5s;
+  opacity: 0%;
+  font-size: 2rem;
 }
 
 footer {
-    width: 99vw;
-    height: 25vh;
-    margin-top: 2rem;
-    background-color: #89515981 ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
-    font-family: "Roboto", sans-serif;
-    box-shadow: #afa39f69 .3rem -0.3rem 0.2rem ;
-    gap: 9rem;
-    position: relative;
-    text-align: center;
-    align-content: center;
+  width: 99vw;
+  height: 25vh;
+  margin-top: 2rem;
+  background-color: #89515981;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  box-shadow: #afa39f69 0.3rem -0.3rem 0.2rem;
+  gap: 9rem;
+  position: relative;
+  text-align: center;
+  align-content: center;
 }
 
 footer a {
-    display: flex;
-    color: #895159;
-    list-style-type: none;
-    font-size: 1.1rem;
+  display: flex;
+  color: #895159;
+  list-style-type: none;
+  font-size: 1.1rem;
 }
 
 footer a:hover {
-    color: #374375;
+  color: #374375;
 }
 
 .logo img {
-   width: 12rem;
+  width: 12rem;
 }
 
 .autores {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .patrocinadores {
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
 }
 
 .favorites {
-    width: 80vw;
-    height: 55vh;
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: rgba(198, 198, 198, 0.562) .2rem solid;
-    margin: 9rem 0;
-    gap: 6rem;
-    padding: 0 0 3rem 0;
+  width: 80vw;
+  height: 55vh;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: rgba(198, 198, 198, 0.562) 0.2rem solid;
+  margin: 9rem 0;
+  gap: 6rem;
+  padding: 0 0 3rem 0;
 }
 
-
 .favorites h1 {
-    position: absolute;
-    top: 114rem;
-    font-size: 5rem;
+  position: absolute;
+  top: 114rem;
+  font-size: 5rem;
 }
 
 .Racao {
-    display: flex;
-    flex-direction: column;
-    height: 40rem;
-    width: 25rem;
-    background-color: #dfbfb6a2;
-    border-radius: 5rem;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    font-size: 2rem;
-    color: #374375;
-    box-shadow: 1rem 1rem 1rem rgba(155, 155, 155, 0.616);
+  display: flex;
+  flex-direction: column;
+  height: 40rem;
+  width: 25rem;
+  background-color: #dfbfb6a2;
+  border-radius: 5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+  color: #374375;
+  box-shadow: 1rem 1rem 1rem rgba(155, 155, 155, 0.616);
 }
 
-.Racao img{
-    border-radius: 3rem;
-    height: 18rem;
+.Racao img {
+  border-radius: 3rem;
+  height: 18rem;
 }
 
 .adicionar {
-    border-radius: 2rem;
-    padding: .5rem;
-    font-size: 1.5rem;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
 }
 
 .color {
-    width: 20rem;
-    height: 10rem;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #F8EBE2;
-    border-radius: 2rem;
-    font-size: 2rem;
-    font-family: "Roboto", sans-serif;
-    padding: 1.5rem;
+  width: 20rem;
+  height: 10rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f8ebe2;
+  border-radius: 2rem;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  padding: 1.5rem;
 }
 
 .adicionar {
-    border: none;
+  border: none;
 }
 
 .adicionar:hover {
-    color: #ffffff;
-    background-color: #374375;
-    box-shadow: .3rem .3rem 0rem rgba(0, 0, 0, 0.233);
+  color: #ffffff;
+  background-color: #374375;
+  box-shadow: 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.233);
 }
