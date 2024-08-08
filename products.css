@@ -27,7 +27,7 @@ body {
 }
 
 main {
-    width: 99vw;
+    width: 98vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -198,8 +198,6 @@ header {
         
 }
 
-
-
 .carrinho_pet > img {
     width: 3rem;
     height: 3rem;
@@ -221,11 +219,95 @@ header {
 
 .barra{
     background: rgba(198, 198, 198, 0.562);
-    width: 100vw;
+    width: 99vw;
     height: 0.2rem;
 }
 
 
+
+.favorites {
+    width: 80vw;
+    height: 55vh;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: rgba(198, 198, 198, 0.562) 0.2rem solid;
+    font-family: "Secular One", sans-serif;
+    text-align: center;
+    margin: 2rem 0;
+    gap: 6rem;
+    padding: 0 0 3rem 0;
+  }
+  
+  .favorites h1 {
+    position: absolute;
+    top: 114rem;
+    font-size: 3rem;
+    font-weight: 200;
+  }
+
+  figcaption {
+    font-weight: 300;
+  }
+
+  span {
+    color: #830013;
+    font-weight: 500;
+  }
+
+  .adicionar {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .color {
+    width: 20rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8ebe2;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    padding: 1.5rem;
+  }
+  
+  .adicionar {
+    border: none;
+  }
+  
+  .adicionar:hover {
+    color: #ffffff;
+    background-color: #374375;
+    box-shadow: 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.233);
+  }
+  
+
+.Racao {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: 25rem;
+    background-color: #dfbfb6a2;
+    border-radius: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    color: #374375;
+    box-shadow: 1rem 1rem 1rem rgba(155, 155, 155, 0.616);
+  }
+  
+
+.Racao img {
+    border-radius: 3rem;
+    height: 18rem;
+  }
+  
 
 
 /* FOOTER */
@@ -241,7 +323,6 @@ footer {
     font-size: 2.5rem;
     font-family: "Roboto", sans-serif;
     box-shadow: #afa39f69 .3rem -0.3rem 0.2rem ;
-    gap: 9rem;
     position: relative;
     text-align: center;
     align-content: center;
@@ -262,13 +343,19 @@ footer a:hover {
    width: 12rem;
 }
 
+footer > section > h2 {
+    font-size: 1.8rem;
+}
+
 .autores {
     position: absolute;
     bottom: 0;
+    font-size: 1.8rem;
 }
 
 .patrocinadores {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 5rem;
 }
