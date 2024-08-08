@@ -250,16 +250,7 @@ main {
   box-shadow: 0.5rem 0.5rem 0.5re #afa39f94;
 }
 
-.adocao {
-  width: 80vw;
-  height: 40vh;
-  margin-top: 2rem;
-  border: 0.3rem solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 5rem;
-}
+
 
 .categorias a {
   text-decoration: none;
@@ -285,6 +276,18 @@ main {
   transition: 0.5s;
   opacity: 0%;
   font-size: 2rem;
+}
+
+
+/* ADOÇÃO */
+.adocao {
+  width: 80vw;
+  height: 65vh;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 5rem;
 }
 
 footer {
