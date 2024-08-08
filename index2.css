@@ -150,30 +150,33 @@ main {
 /* INICIO SEÇÃO COMPRAS */
 .compra {
     width: 99vw;
-    height: 500vh;
-    border: 0.2rem solid black;
+    height: 100vh;
     display: flex;
     margin-top: 5rem;
 }
 /* FIM SEÇÃO COMPRAS */
 /* INICIO SEÇÃO FILTRO */
 .filtro {
-    width: 22vw;
+    width: 16vw;
     height: 100vh;
     border: 0.2rem solid black;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 /* FIM SEÇÃO FILTRO */
 /* INICIO SEÇÃO PRODUTOS */
 .produtos {
     width: 77vw;
     height: 100vh;
-    border: 0.2rem solid black;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .topo {
+    width: 80vw;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
 }
@@ -203,14 +206,286 @@ main {
 #title {
     font-size: 1.5rem;
 }
+.caixas {
+    display: flex;
+    flex-direction: column;
+}
 
+.favorites1 {
+    width: 80vw;
+    height: 55vh;
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Secular One", sans-serif;
+    gap: 6rem;
+    padding: 0 0 3rem 0;
+    position: absolute;
+    left: 30rem;
+  }
+  
+  figcaption {
+    font-weight: 300;
+  }
 
+  span {
+    color: #830013;
+    font-weight: 500;
+  }
+
+  .adicionar {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .color {
+    width: 20rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8ebe2;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    padding: 1.5rem;
+  }
+  
+  .adicionar {
+    border: none;
+  }
+  
+  .adicionar:hover {
+    color: #ffffff;
+    background-color: #374375;
+    box-shadow: 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.233);
+  }
+  
+
+.favorites1 > div {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: 25rem;
+    background-color: #dfbfb6a2;
+    border-radius: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    color: #374375;
+    box-shadow: 1rem 1rem 1rem rgba(155, 155, 155, 0.616);
+  }
+.favorites2 {
+    width: 80vw;
+    height: 55vh;
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Secular One", sans-serif;
+    gap: 6rem;
+    padding: 0 0 3rem 0;
+    position: absolute;
+    left: 30rem;
+  }
+  
+figcaption {
+    font-weight: 300;
+}
+span {
+    color: #830013;
+    font-weight: 500;
+}
+
+.adicionar {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+  
+  .color {
+    width: 20rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8ebe2;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    padding: 1.5rem;
+  }
+  
+  .adicionar {
+    border: none;
+  }
+  
+  .adicionar:hover {
+    color: #ffffff;
+    background-color: #374375;
+    box-shadow: 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.233);
+  }
+  
+
+.favorites2 > div {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: 25rem;
+    background-color: #dfbfb6a2;
+    border-radius: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    color: #374375;
+    box-shadow: 1rem 1rem 1rem rgba(155, 155, 155, 0.616);
+  }
+.favorites3 {
+    width: 80vw;
+    height: 55vh;
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Secular One", sans-serif;
+    gap: 6rem;
+    padding: 0 0 3rem 0;
+    position: absolute;
+    left: 30rem;
+  }
+  
+  figcaption {
+    font-weight: 300;
+  }
+
+  span {
+    color: #830013;
+    font-weight: 500;
+  }
+
+  .adicionar {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .color {
+    width: 20rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8ebe2;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    padding: 1.5rem;
+  }
+  
+  .adicionar {
+    border: none;
+  }
+  
+  .adicionar:hover {
+    color: #ffffff;
+    background-color: #374375;
+    box-shadow: 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.233);
+  }
+  
+
+.favorites3 > div {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: 25rem;
+    background-color: #dfbfb6a2;
+    border-radius: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    color: #374375;
+    box-shadow: 1rem 1rem 1rem rgba(155, 155, 155, 0.616);
+  }
+.favorites4 {
+    width: 80vw;
+    height: 55vh;
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Secular One", sans-serif;
+    gap: 6rem;
+    padding: 0 0 3rem 0;
+    position: absolute;
+    left: 30rem;
+  }
+  
+  figcaption {
+    font-weight: 300;
+  }
+
+  span {
+    color: #830013;
+    font-weight: 500;
+  }
+
+  .adicionar {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .color {
+    width: 20rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8ebe2;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    padding: 1.5rem;
+  }
+  
+  .adicionar {
+    border: none;
+  }
+  
+  .adicionar:hover {
+    color: #ffffff;
+    background-color: #374375;
+    box-shadow: 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.233);
+  }
+  
+
+.favorites4 > div {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: 25rem;
+    background-color: #dfbfb6a2;
+    border-radius: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    color: #374375;
+    box-shadow: 1rem 1rem 1rem rgba(155, 155, 155, 0.616);
+  }
 
 /* COMEÇO ASIDE */
 
+
+/* INFORME SEU CEP */
 .CEP {
     width: 85%;
-    height: 15rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -218,14 +493,99 @@ main {
 }
 
 .caixaCEP {
-    width: 25rem;
-    height: 50%;
+    width: 20rem;
+    height: 7rem;
     background-color: #fffcf5;
-    border-radius: 2rem;
+    border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: start;
     border: .2rem solid #77798d2d;
+}
+
+.caixaCEP div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 92%;
+    width: 96%;
+    gap: .6rem;
+}
+
+.caixaCEP div h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #77798D;
+    margin-left: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.caixaCEP div div {
+    width: 100%;
+    height: 50%;
+    align-self: end;
+    border-radius: .5rem;
+    border: .1rem solid #77798d86;
+}
+
+.caixaCEP div div p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    width: 95%;
+    text-align: start;
+    color: #77798d86;
+    text-align: start;
+}
+
+/* (FIM) INFORME SEU CEP */
+
+/* FILTRO:MARCA */
+
+.marca {
+    width: 19rem;
+    height: 7rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    align-items: start;
+}
+
+.marca h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #77798D;
+    margin-left: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.buscar {
+    width: 98%;
+    height: 50%;
+    align-self: center;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    border: .1rem solid #77798d86;
+}
+
+.marca div p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    width: 95%;
+    color: #77798d86;
+    text-align: start;
+}
+
+li {
+    list-style: none;
 }
 
 /* FIM ASIDE */

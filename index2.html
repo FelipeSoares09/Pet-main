@@ -7,58 +7,106 @@
     <title>Pet Shop</title>
 </head>
 <body>
-    <!-- PADRÃO: INICIO HEADER -->
-    <div class="linhaSuperior"></div>
-    <figure><img class="logoPetMain" src="Imagens/Logo menor.png" alt=""></figure>
-    <header>
-        <div class="centralizarHeader"></div>
-            <figure><img class="lupa" src="Imagens/lupa.png" alt=""></figure>
-            <form action="" method="post">
-                <input type="search" name="pesquisa" id="pesquisa" placeholder="O que seu pet precisa?...">
-            </form>
+        <!-- PADRÃO: INICIO HEADER -->
+        <div class="linhaSuperior"></div>
+        <figure><img class="logoPetMain" src="Imagens/Logo menor.png" alt=""></figure>
+        <header>
+            <div class="centralizarHeader"></div>
+                <figure><img class="lupa" src="Imagens/lupa.png" alt=""></figure>
+                <form action="" method="post">
+                    <input type="search" name="pesquisa" id="pesquisa" placeholder="O que seu pet precisa?...">
+                </form>
             <section class="icones">
                 <div class="coracao"><figure><img src="Imagens/Coracao.png" alt=""></figure></div>
                 <div class="perfil"><figure><img src="Imagens/perfil.png" alt=""></figure></div>
                 <div class="compras"><figure><img src="Imagens/carrinho.png" alt=""></figure></div>     
             </section>
-    </header>
-    <div class="categoriasHeader"></div>
+        </header>
+            <div class="categoriasHeader"></div>
 
     <main>
-        <div class="categorias_header">
-          <nav>
-              <ul>
-                  <li>Sobre</li>
-                  <li>Banho e tosa</li>
-                  <li>Produtos</li>
-                  <li>Adote um pet</li>
-              </ul>
-          </nav>
-        </div>
+            <div class="categorias_header">
+                <nav>
+                    <ul>
+                    <li>Sobre</li>
+                    <li>Banho e tosa</li>
+                    <li>Produtos</li>
+                    <li>Adote um pet</li>
+                    </ul>
+                </nav>
+            </div>
 
-  <!-- PADRÃO: FIM HEADER -->
-   <article>
-    <section class="banner">BANNER</section>
-    <section class="compra">
-        <section class="filtro">
+        <!-- PADRÃO: FIM HEADER -->
+        <article>
+                <section class="banner">BANNER</section>
+            <section class="compra">
+                <section class="filtro">
 
-            <!-- INFORME SEU CEP -->
+                <!-- INFORME SEU CEP -->
             
-            <div class="CEP">
-               <div class="caixaCEP">
-                    <div class="">
+                <div class="CEP">
+                <div class="caixaCEP">
+                <div class="">
                         <h2>Entregar em:</h2>
-                        <span>Informe seu CEP</span>
+                        <div><p>Informe seu CEP</p></div>
                     </div>
                 </div>
             </div>
 
             <!--/////////-->
-
-
-
-            <div>
-                
+            <div class="marca">
+                <h2>Marca</h2>
+                <div class="buscar">
+                    <p>Buscar...</p>
+                </div>
+                <div class="classe_opcoes">
+                    <ul class="opcoes">
+                        <li class="opcao" >
+                            <input type="radio"
+                            name="category"
+                            value="whiskas"
+                            data-label="Marcas"
+                            />
+                            <i data-lucide="whiskas"></i>
+                            <span class="label">Whiskas</span>
+                            <i data-lucide="check"></i>
+                        </li>
+    
+                        <li class="opcao" >
+                            <input type="radio"
+                            name="category"
+                            value="bellokao"
+                            data-label="Marcas"
+                            />
+                            <i data-lucide="bellokao"></i>
+                            <span class="label">Whiskas</span>
+                            <i data-lucide="check"></i>
+                        </li>
+    
+                        <li class="opcao" >
+                            <input type="radio"
+                            name="category"
+                            value="petz"
+                            data-label="Marcas"
+                            />
+                            <i data-lucide="petz"></i>
+                            <span class="label">Petz</span>
+                            <i data-lucide="check"></i>
+                        </li>
+    
+                        <li class="opcao" >
+                            <input type="radio"
+                            name="category"
+                            value="petlove"
+                            data-label="Marcas"
+                            />
+                            <i data-lucide="petlove"></i>
+                            <span class="label">Petlove</span>
+                            <i data-lucide="check"></i>
+                        </li>
+    
+                    </ul>
+                </div>
             </div>
 
             <div>
@@ -81,11 +129,243 @@
                     </select>
                 </div>
             </section>
-            <section class="produtosI"></section>
         </section>
+        <section class="caixas">
+            <section class="favorites1">
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+            </section>
+            <section class="favorites2">
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+            </section>
+            <section class="favorites3">
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+            </section>
+            <section class="favorites4">
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+                <div>
+                    <a href="#">
+                      <img src="" alt="">
+                    </a>
+                    <div class="color">
+                      <figcaption>
+            
+                      </figcaption>
+                      <span>
+            
+                      </span>
+                    </div>
+                    <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+                </div>
+            </section>
         </section>
     </section>
-    
-   </article>
+</article>
+</main>
 </body>
 </html>
