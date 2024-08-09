@@ -9,14 +9,15 @@
 
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-size: 62.5%
-}
-
-body {
-    width: 99vw;
+    font-size: 62.5%;
+    font-family: "Secular One", sans-serif;
+    color: #895159;
+  }
+  body {
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -24,18 +25,10 @@ body {
     align-items: center;
     background-color: #fffcf5;
     position: relative;
-}
-
-main {
-    width: 98vw;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-header {
+  }
+  /* PADRÃO: INICIO HEADER */
+  /* INICIO DO HEADER */
+  header {
     width: 99vw;
     height: 13vh;
     display: flex;
@@ -46,39 +39,38 @@ header {
     padding-bottom: 1rem;
     padding-top: 1rem;
     background-color: #8951590a;
-    border-top: .2rem solid rgba(198, 198, 198, 0.562);
-
-}
-
-.linhaSuperior {
+    border-top: 0.2rem solid rgba(198, 198, 198, 0.562);
+  }
+  
+  .linhaSuperior {
     width: 100%;
     height: 5vh;
-}
-
-.categoriasHeader {
-    border-top: .2rem solid rgba(198, 198, 198, 0.562);
+  }
+  
+  .categoriasHeader {
+    border-top: 0.2rem solid rgba(198, 198, 198, 0.562);
     height: 3rem;
     width: 100%;
-}
-
-.logoPetMain {
+  }
+  
+  .logoPetMain {
     position: absolute;
     top: 8rem;
     left: 47rem;
-}
-
-.lupa {
+  }
+  
+  .lupa {
     position: absolute;
-    left: 75rem;
+    left: 76rem;
     top: 5rem;
     width: 1.7rem;
-}
-
-.centralizarHeader {
+  }
+  
+  .centralizarHeader {
     width: 18rem;
-}
-
-#pesquisa {
+  }
+  
+  #pesquisa {
     width: 20vw;
     height: 5vh;
     font-size: 1.2rem;
@@ -87,52 +79,64 @@ header {
     border: 0;
     background-color: #dfb1a12c;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px inset;
-}
-
-#pesquisa::placeholder {
-    color: rgba(137, 81, 89, 0.342)
-}
-
-.icones {
+  }
+  
+  #pesquisa::placeholder {
+    color: rgba(137, 81, 89, 0.342);
+  }
+  
+  .icones {
     display: flex;
     gap: 3rem;
     margin-left: 5rem;
     margin-top: 1rem;
-}
-
-.icones > figure > img {
+  }
+  
+  .icones > figure > img {
     width: 4rem;
-}
-
-/* FIM HEADER */
-
-/* COMEÇO MENU NAV */
-
-.categorias_header {
+  }
+  /* FIM DO HEADER */
+  main {
+    width: 99vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* INICIO MENU NAVEGAÇÃO */
+  .categorias_header {
     width: 80vw;
     height: 8vh;
-}
-
-.categorias_header > nav > ul {
+  }
+  
+  .categorias_header > nav > ul {
     display: flex;
     justify-content: center;
     gap: 5rem;
-}
-
-.categorias_header > nav > ul > li {
+  }
+  
+  .categorias_header > nav > ul > li {
     font-size: 2.5rem;
     list-style: none;
     font-family: "Secular One", sans-serif;
-    color: #DFAEA1;
-}
-
-.categorias_header > nav > ul > li:hover {
+    color: #dfaea1;
+  }
+  
+  .categorias_header > nav > ul > li:hover {
     color: #374375;
     cursor: pointer;
     border-bottom: 0.3rem solid #374375;
-}
-/* FINAL HEADER */
+  }
+  
+  /* FIM MENU NAVEGAÇÃO */
+  /* PADRÃO: FIM HEADER */
 
+
+.imagem_pet img {
+    width: 100%;
+    height: auto;
+}
 
 /* COMEÇO PRODUTOS */
 
@@ -203,7 +207,7 @@ header {
     height: 3rem;
 }
 
-.campo{
+.campo {
     font-family: "Secular", sans-serif;
     font-size: 3.5rem;
     font-weight: 400;
