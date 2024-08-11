@@ -160,72 +160,72 @@ main {
 /* FIM SEÇÃO COMPRAS */
 /* INICIO SEÇÃO FILTRO */
 .filtro {
-    width: 16vw;
-    height: 100%;
-    border-right: .1rem solid #77798d2d;;
-    display: flex;
-    align-items: center;
-    row-gap: 2rem;
-    flex-direction: column;
+  width: 16vw;
+  height: 100%;
+  border-right: .1rem solid #77798d2d;;
+  display: flex;
+  align-items: center;
+  row-gap: 2rem;
+  flex-direction: column;
 }
 
 /* INFORME SEU CEP */
 .CEP {
-  width: 85%;
-  height: 10rem;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  border-bottom: .1rem solid #77798d2d;
+width: 85%;
+height: 10rem;
+display: flex;
+justify-content: center;
+align-items: start;
+border-bottom: .1rem solid #77798d2d;
 }
 
 .caixaCEP {
-  width: 20rem;
-  height: 7rem;
-  background-color: #fffcf5;
-  border-radius: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  border: .2rem solid #77798d2d;
+width: 20rem;
+height: 7rem;
+background-color: #fffcf5;
+border-radius: 1rem;
+display: flex;
+justify-content: center;
+align-items: start;
+box-shadow: rgba(0, 0, 0, 0.384) 0px 1px 3px, rgba(0, 0, 0, 0.090) 0px 1px 1px;
 }
 
 .caixaCEP div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  height: 92%;
-  width: 96%;
-  gap: .6rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+height: 92%;
+width: 96%;
+gap: .6rem;
 }
 
 .caixaCEP div h2 {
-  font-size: 1.5rem;
-  font-weight: 300;
-  color: #77798D;
-  margin-left: 1.5rem;
-  font-family: "Roboto", sans-serif;
+font-size: 1.5rem;
+font-weight: 300;
+color: #77798D;
+margin-left: 1.5rem;
+font-family: "Roboto", sans-serif;
 }
 
 .caixaCEP div div {
-  width: 100%;
-  height: 50%;
-  align-self: end;
-  border-radius: .5rem;
-  border: .1rem solid #77798d86;
+width: 100%;
+height: 50%;
+align-self: end;
+border-radius: .5rem;
+border: .1rem solid #77798d86;
 }
 
 .caixaCEP div div p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  width: 95%;
-  text-align: start;
-  color: #77798d86;
-  text-align: start;
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-size: 1rem;
+padding-left: .5rem;
+padding-right: .5rem;
+width: 95%;
+text-align: start;
+color: #77798d86;
+text-align: start;
 }
 
 /* (FIM) INFORME SEU CEP */
@@ -233,60 +233,59 @@ main {
 /* FILTRO:MARCA */
 
 .marca {
-  width: 85%;
-  height: 17rem;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  border-bottom: .1rem solid #77798d2d;
+width: 85%;
+height: 17rem;
+display: flex;
+justify-content: center;
+align-items: start;
+border-bottom: .1rem solid #77798d2d;
 }
 
 .marca div {
-  width: 19rem;
-  height: 15rem;
-  flex-direction: column;
-  display: flex;
-  justify-content: end;
-  gap: 1rem;
-  align-items: start;
+width: 19rem;
+height: 15rem;
+flex-direction: column;
+display: flex;
+justify-content: end;
+gap: 1rem;
+align-items: start;
 }
 
 .marca div h2 {
-  font-size: 3rem;
-  font-weight: 300;
-  color: #77798D;
-  margin-left: 1.5rem;
-  font-family: "Roboto", sans-serif;
+font-size: 3rem;
+font-weight: 300;
+color: #77798D;
+font-family: "Roboto", sans-serif;
 }
 
 .buscar {
-  width: 98%;
-  height: 50%;
-  align-self: center;
-  border-radius: .5rem;
-  display: flex;
-  align-items: center;
-  border: .1rem solid #77798d86;
+width: 98%;
+height: 50%;
+align-self: center;
+border-radius: .5rem;
+display: flex;
+align-items: center;
+border: .1rem solid #77798d86;
 }
 
 .marca div div p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  width: 95%;
-  color: #77798d86;
-  text-align: start;
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-size: 1rem;
+padding-left: .5rem;
+padding-right: .5rem;
+width: 95%;
+color: #77798d86;
+text-align: start;
 }
 
 .opcao {
-  list-style: none;
-  height: 2rem;
+list-style: none;
+height: 2rem;
 }
 
 .opcao input:checked {
-    accent-color: #374375;
+  accent-color: #374375;
 }
 
 
@@ -296,7 +295,173 @@ color: #374375;
 font-size: 1rem;
 margin-left: 1rem;
 }
-/* FIM SEÇÃO FILTRO */
+
+/* OPÇAO PET */
+
+.pet div div p {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-size: 1rem;
+padding-left: .5rem;
+padding-right: .5rem;
+width: 95%;
+color: #77798d86;
+text-align: start;
+}
+
+.pet {
+width: 85%;
+height: 12rem;
+display: flex;
+justify-content: center;
+align-items: start;
+border-bottom: .1rem solid #77798d2d;
+}
+
+.pet div {
+width: 19rem;
+height: 9rem;
+flex-direction: column;
+display: flex;
+justify-content: end;
+gap: 1rem;
+align-items: start;
+}
+
+.pet div h2 {
+font-size: 3rem;
+font-weight: 300;
+color: #77798D;
+font-family: "Roboto", sans-serif;
+}
+
+/* FIM OPÇAO PET */
+
+/* OPÇAO TAMANHO */
+
+.aplicacao div div p {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-size: 1rem;
+padding-left: .5rem;
+padding-right: .5rem;
+width: 95%;
+color: #77798d86;
+text-align: start;
+}
+
+.aplicacao {
+width: 85%;
+height: 14rem;
+display: flex;
+justify-content: center;
+align-items: start;
+border-bottom: .1rem solid #77798d2d;
+}
+
+.aplicacao div {
+width: 19rem;
+height: 12rem;
+flex-direction: column;
+display: flex;
+justify-content: end;
+gap: 1rem;
+align-items: start;
+}
+
+.aplicacao div h2 {
+font-size: 3rem;
+font-weight: 300;
+color: #77798D;
+font-family: "Roboto", sans-serif;
+}
+
+/* FIM OPÇAO TAMANHO */
+
+/* OPÇAO COR */
+
+.parasitas div div p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  width: 95%;
+  color: #77798d86;
+  text-align: start;
+  }
+  
+  .parasitas {
+  width: 85%;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  border-bottom: .1rem solid #77798d2d;
+  }
+  
+  .parasitas div {
+  width: 19rem;
+  height: 12rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  align-items: start;
+  }
+  
+  .parasitas div h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #77798D;
+  font-family: "Roboto", sans-serif;
+  }
+
+/* FIM OPÇAO COR */
+
+/* OPÇAO AVALIAÇÃO */
+
+.avaliacao div div p {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-size: 1rem;
+padding-left: .5rem;
+padding-right: .5rem;
+width: 95%;
+color: #77798d86;
+text-align: start;
+}
+
+.avaliacao {
+width: 85%;
+height: 14rem;
+display: flex;
+justify-content: center;
+align-items: start;
+}
+
+.avaliacao div {
+width: 19rem;
+height: 12rem;
+flex-direction: column;
+display: flex;
+justify-content: end;
+gap: 1rem;
+align-items: start;
+}
+
+.avaliacao div h2 {
+font-size: 3rem;
+font-weight: 300;
+color: #77798D;
+font-family: "Roboto", sans-serif;
+}
+
+.estrelas {
+width: 7rem;
+}
+
+/* FIM OPÇAO AVALIAÇÃO */
 /* INICIO SEÇÃO PRODUTOS */
 .produtos {
     width: 77vw;
@@ -326,25 +491,34 @@ margin-left: 1rem;
     flex-direction: column;
     position: absolute;
     right: 5rem;
-    top: 2.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.384) 0px 1px 3px, rgba(0, 0, 0, 0.090) 0px 1px 1px;
 }
 
 #escolha {
     font-size: 1.7rem;
-    border-radius: 1.5rem;
-    padding-left: 1rem;
+    border-radius: .5rem;
+    padding-left: rem;
     color: #374375;
+    border: 0;
+    background-color: #fffcf5;
     font-family: "Roboto", sans-serif;
 }
+
 
 #title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-left: .5rem;
     color: #374375;
     font-family: "Roboto", sans-serif;
 }
 
-.escolha option {
+#escolha option {
   border: 0;
+  color: #374375;
+  font-family: "Roboto", sans-serif;
 }
 
 .caixas {

@@ -187,8 +187,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: start;
-  border: .2rem solid #77798d2d;
-}
+  box-shadow: rgba(0, 0, 0, 0.384) 0px 1px 3px, rgba(0, 0, 0, 0.090) 0px 1px 1px;
+  }
 
 .caixaCEP div {
   display: flex;
@@ -500,27 +500,39 @@ margin-left: 1rem;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 5rem;
-    top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.384) 0px 1px 3px, rgba(0, 0, 0, 0.090) 0px 1px 1px;
 }
 
 #escolha {
-    font-size: 1.7rem;
-    border-radius: 1.5rem;
-    padding-left: 1rem;
-    color: #374375;
-    font-family: "Roboto", sans-serif;
+  font-size: 1.7rem;
+  border-radius: .5rem;
+  padding-left: rem;
+  color: #374375;
+  border: 0;
+  background-color: #fffcf5;
+  font-family: "Roboto", sans-serif;
 }
+
 
 #title {
-    font-size: 1.5rem;
-    color: #374375;
-    font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  margin-left: .5rem;
+  color: #374375;
+  font-family: "Roboto", sans-serif;
 }
 
+#escolha option {
+border: 0;
+color: #374375;
+font-family: "Roboto", sans-serif;
+}
 .escolha option {
   border: 0;
 }
