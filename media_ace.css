@@ -152,7 +152,7 @@
       font-family: "Roboto", sans-serif;
       font-size: 13px;
       position: absolute;
-      top: 50px;
+      top: 60px;
       left: -30px;
   }
   
@@ -162,7 +162,7 @@
     position: absolute;
     padding: 1rem;
     border-radius: 1rem;
-    top: 40px;
+    top: 50px;
     right: -35px;
     box-shadow: rgba(0, 0, 0, 0.384) 0px 1px 3px, rgba(0, 0, 0, 0.090) 0px 1px 1px;
     width: 11rem;
@@ -198,7 +198,7 @@
   .caixas {
     display: flex;
     flex-direction: column;
-    margin-top: 1800px;
+    margin-top: 2200px;
   }
 
   .caixas > div {
