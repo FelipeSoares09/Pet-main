@@ -815,6 +815,46 @@ span {
   color: #374375;
   box-shadow: 0.5rem 0.5rem 0.5rem #afa39f94;
 }
+
+.Racao {
+  display: flex;
+  flex-direction: column;
+  height: 40rem;
+  width: 25rem;
+  background-color: #f3e9e6a2;
+  border-radius: 5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+  color: #374375;
+  box-shadow: 1rem 1rem 1rem rgba(155, 155, 155, 0.616);
+}
+
+.Racao img {
+  position: relative;
+  border-radius: 3rem;
+  height: 18rem;
+  bottom: 5rem;
+}
+
+.adicionar {
+  border-radius: 2rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.linha2 {
+  margin: 5rem 0;
+}
+
+.linha3 {
+  margin: 5rem 0;
+}
+
+.linha4 {
+  margin: 5rem 0;
+}
 /* COMEÇO ASIDE */
 
 
