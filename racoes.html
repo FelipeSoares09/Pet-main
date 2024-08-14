@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index3.css">
+    <link rel="stylesheet" href="racoes.css">
     <title>Pet Shop</title>
 </head>
 <body>
@@ -143,111 +143,125 @@
       </div>
 
 
-      <div class="aplicacao"> 
+      <div class="tamanho"> 
         <div>
-          <h2>Aplicação</h2>
+          <h2>Grão</h2>
           <div class="classe_opcoes_pet">
               <ul class="opcoesPet">
                   <li class="opcao" >
+                    <input type="checkbox"
+                    name="category"
+                    value="pequena"
+                    data-label="tamanho"
+                    />
+                    <i data-lucide="pequena"></i>
+                    <span class="label">Mini</span>
+                    <i data-lucide="check"></i>
+                  </li>
+
+                  <li class="opcao" >
                       <input type="checkbox"
                       name="category"
-                      value="topico"
-                      data-label="aplicacao"
+                      value="pequena"
+                      data-label="tamanho"
                       />
-                      <i data-lucide="topico"></i>
-                      <span class="label">Tópico</span>
+                      <i data-lucide="pequena"></i>
+                      <span class="label">Pequeno</span>
                       <i data-lucide="check"></i>
                   </li>
           
                   <li class="opcao" >
                       <input type="checkbox"
                       name="category"
-                      value="oral"
-                      data-label="aplicacao"
+                      value="media"
+                      data-label="tamanho"
                       />
-                      <i data-lucide="oral"></i>
-                      <span class="label">Oral</span>
+                      <i data-lucide="media"></i>
+                      <span class="label">Médio</span>
                       <i data-lucide="check"></i>
                   </li>
 
                   <li class="opcao" >
                     <input type="checkbox"
                     name="category"
-                    value="coleira"
-                    data-label="aplicacao"
+                    value="grande"
+                    data-label="tamanho"
                     />
-                    <i data-lucide="coleira"></i>
-                    <span class="label">Coleira</span>
+                    <i data-lucide="grande"></i>
+                    <span class="label">Grande</span>
                     <i data-lucide="check"></i>
                 </li>
-
-                <li class="opcao" >
-                  <input type="checkbox"
-                  name="category"
-                  value="spray"
-                  data-label="aplicacao"
-                  />
-                  <i data-lucide="spray"></i>
-                  <span class="label">Spray</span>
-                  <i data-lucide="check"></i>
-              </li>
               </ul>
           </div>
         </div>
       </div>
 
-      <div class="parasitas"> 
+      <div class="sabor">
         <div>
-          <h2>Parasitas</h2>
-          <div class="classe_opcoes_pet">
-              <ul class="opcoesPet">
+          <h2>Sabor</h2>
+          <div class="buscar">
+              <p>Buscar...</p>
+          </div>
+          <div class="classe_opcoes">
+              <ul class="opcoes">
                   <li class="opcao" >
                       <input type="checkbox"
                       name="category"
-                      value="pulgas"
-                      data-label="parasitas"
+                      value="frango"
+                      data-label="sabor"
                       />
-                      <i data-lucide="pulgas"></i>
-                      <span class="label">Pulgas</span>
+                      <i data-lucide="frango"></i>
+                      <span class="label">Frango</span>
                       <i data-lucide="check"></i>
                   </li>
           
                   <li class="opcao" >
                       <input type="checkbox"
                       name="category"
-                      value="carrapatos"
-                      data-label="parasitas"
+                      value="peixe"
+                      data-label="sabor"
                       />
-                      <i data-lucide="carrapatos"></i>
-                      <span class="label">Carrapatos</span>
+                      <i data-lucide="peixe"></i>
+                      <span class="label">Peixe</span>
+                      <i data-lucide="check"></i>
+                  </li>
+          
+                  <li class="opcao" >
+                      <input type="checkbox"
+                      name="category"
+                      value="carne"
+                      data-label="sabor"
+                      />
+                      <i data-lucide="carne"></i>
+                      <span class="label">Carne</span>
+                      <i data-lucide="check"></i>
+                  </li>
+
+                  <li class="opcao" >
+                      <input type="checkbox"
+                      name="category"
+                      value="frango_vegetais"
+                      data-label="sabor"
+                      />
+                      <i data-lucide="frango_vegetais"></i>
+                      <span class="label">Frango e Vegetais</span>
                       <i data-lucide="check"></i>
                   </li>
 
                   <li class="opcao" >
                     <input type="checkbox"
                     name="category"
-                    value="vermes"
-                    data-label="parasitas"
+                    value="frango_cereais"
+                    data-label="sabor"
                     />
-                    <i data-lucide="vermes"></i>
-                    <span class="label">Vermes</span>
+                    <i data-lucide="frango_cereais"></i>
+                    <span class="label">Frango e Cereais</span>
                     <i data-lucide="check"></i>
                 </li>
-
-                <li class="opcao" >
-                  <input type="checkbox"
-                  name="category"
-                  value="sarnas"
-                  data-label="parasitas"
-                  />
-                  <i data-lucide="sarnas"></i>
-                  <span class="label">Sarnas</span>
-                  <i data-lucide="check"></i>
-              </li>
               </ul>
           </div>
         </div>
-      </div>
+    </div>
 
     <div class="avaliacao"> 
       <div>
@@ -301,8 +315,7 @@
         </div>
       </div>
     </div>
-            
-        </div>
+
     </section>
       <section class="produtos">
         <section class="topo">
@@ -323,241 +336,201 @@
       </section>
         <section class="caixas">
           <section class="linha1">
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+            <div class="Racao">
+              <a href="#">
+                <img src="Imagens/Catit PIXI Fountain - Blue.jpg" alt="Fonte para gatos">
+              </a>
+              <div class="color">
+                <figcaption>
+                  Fonte para gatos - azul
+                </figcaption>
+                <span>
+                  R$70,00
+                </span>
+              </div>
+              <input class="adicionar" type="button" value="Adicionar ao carrinho" onclick="msg()">
             </div>
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+            
+              
+            <div class="Racao">
+              <a href="#">
+                <img src="Imagens/1pc Two-in-one Automatic Pet Feeder For Food And Water - Multi-functional And Convenient For Cats And Dogs.jpg" alt="Potinho de ração e água">
+              </a>
+              <div class="color">
+                <figcaption>
+                  Comedouro automatico - verde
+                </figcaption>
+                <span>
+                  R$49,50
+                </span>
+              </div>
+              <input class="adicionar" type="button" value="Adicionar ao carrinho" onclick="msg()">
             </div>
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+      
+              
+            <div class="Racao">
+              <a href="#">
+                <img src="Imagens/Churu Kattetunn Med Ost 4Stk.jpg" alt="Churu - Petisco felino">
+              </a>
+              <div class="color">
+                <figcaption>
+                  Churu petisco felino - atum e queijo 
+                </figcaption>
+                <span>
+                  R$20,00
+                </span>
+              </div>
+              <input class="adicionar" type="button" value="Adicionar ao carrinho" onclick="msg()">
             </div>
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+      
+              
+            <div class="Racao">
+              <a href="#">
+                <img src="Imagens/Ração Úmida Whiskas Sachê Para Gatos Adultos Sabor Carne Ao Molho 85G.jpg" alt="Sache para gatos">
+              </a>
+              <div class="color">
+                <figcaption>
+                  Whiska sache para gatos - Carne ao molho
+                </figcaption>
+                <span>
+                  R$10,00
+                </span>
+              </div>
+              <input class="adicionar" type="button" value="Adicionar ao carrinho" onclick="msg()">
             </div>
-          </section>
+        </section>
+
+
 
           <section class="linha2">
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+            <div class="Racao">
+              <a href="#">
+                <img src="Imagens/Catit PIXI Fountain - Blue.jpg" alt="Fonte para gatos">
+              </a>
+              <div class="color">
+                <figcaption>
+                  Fonte para gatos - azul
+                </figcaption>
+                <span>
+                  R$70,00
+                </span>
+              </div>
+              <input class="adicionar" type="button" value="Adicionar ao carrinho" onclick="msg()">
             </div>
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+            
+              
+            <div class="Racao">
+              <a href="#">
+                <img src="Imagens/1pc Two-in-one Automatic Pet Feeder For Food And Water - Multi-functional And Convenient For Cats And Dogs.jpg" alt="Potinho de ração e água">
+              </a>
+              <div class="color">
+                <figcaption>
+                  Comedouro automatico - verde
+                </figcaption>
+                <span>
+                  R$49,50
+                </span>
+              </div>
+              <input class="adicionar" type="button" value="Adicionar ao carrinho" onclick="msg()">
             </div>
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+      
+              
+            <div class="Racao">
+              <a href="#">
+                <img src="Imagens/Churu Kattetunn Med Ost 4Stk.jpg" alt="Churu - Petisco felino">
+              </a>
+              <div class="color">
+                <figcaption>
+                  Churu petisco felino - atum e queijo 
+                </figcaption>
+                <span>
+                  R$20,00
+                </span>
+              </div>
+              <input class="adicionar" type="button" value="Adicionar ao carrinho" onclick="msg()">
             </div>
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
+      
+              
+            <div class="Racao">
+              <a href="#">
+                <img src="Imagens/Ração Úmida Whiskas Sachê Para Gatos Adultos Sabor Carne Ao Molho 85G.jpg" alt="Sache para gatos">
+              </a>
+              <div class="color">
+                <figcaption>
+                  Whiska sache para gatos - Carne ao molho
+                </figcaption>
+                <span>
+                  R$10,00
+                </span>
+              </div>
+              <input class="adicionar" type="button" value="Adicionar ao carrinho" onclick="msg()">
             </div>
-          </section>
-
-          <section class="linha3">
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
-            </div>
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
-            </div>
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
-            </div>
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
-            </div>
-          </section>
-
-          <section class="linha4">
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
-            </div>
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
-            </div>
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
-            </div>
-            <div>
-                <a href="#">
-                  <img src="" alt="">
-                </a>
-                <div class="color">
-                  <figcaption>
-        
-                  </figcaption>
-                  <span>
-        
-                  </span>
-                </div>
-                <input class="adicionar" type="button" value="Adicionar" onclick="msg()">
-            </div>
-          </section>
         </section>
+
+        
+        <section class="caixas">
+          <section class="linha3">
+            <div class="Racao">
+              <a href="#">
+                <img src="Imagens/Catit PIXI Fountain - Blue.jpg" alt="Fonte para gatos">
+              </a>
+              <div class="color">
+                <figcaption>
+                  Fonte para gatos - azul
+                </figcaption>
+                <span>
+                  R$70,00
+                </span>
+              </div>
+              <input class="adicionar" type="button" value="Adicionar ao carrinho" onclick="msg()">
+            </div>
+            
+              
+            <div class="Racao">
+              <a href="#">
+                <img src="Imagens/1pc Two-in-one Automatic Pet Feeder For Food And Water - Multi-functional And Convenient For Cats And Dogs.jpg" alt="Potinho de ração e água">
+              </a>
+              <div class="color">
+                <figcaption>
+                  Comedouro automatico - verde
+                </figcaption>
+                <span>
+                  R$49,50
+                </span>
+              </div>
+              <input class="adicionar" type="button" value="Adicionar ao carrinho" onclick="msg()">
+            </div>
+      
+              
+            <div class="Racao">
+              <a href="#">
+                <img src="Imagens/Churu Kattetunn Med Ost 4Stk.jpg" alt="Churu - Petisco felino">
+              </a>
+              <div class="color">
+                <figcaption>
+                  Churu petisco felino - atum e queijo 
+                </figcaption>
+                <span>
+                  R$20,00
+                </span>
+              </div>
+              <input class="adicionar" type="button" value="Adicionar ao carrinho" onclick="msg()">
+            </div>
+            <div class="Racao">
+              <a href="#">
+                <img src="Imagens/Churu Kattetunn Med Ost 4Stk.jpg" alt="Churu - Petisco felino">
+              </a>
+              <div class="color">
+                <figcaption>
+                  Churu petisco felino - atum e queijo 
+                </figcaption>
+                <span>
+                  R$20,00
+                </span>
+              </div>
+              <input class="adicionar" type="button" value="Adicionar ao carrinho" onclick="msg()">
+            </div>
+
 </article>
 </main>
 </body>
