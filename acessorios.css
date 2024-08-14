@@ -14,6 +14,7 @@
     font-size: 62.5%;
     font-family: 'Secular One', sans-serif;
     color: #895159;
+    transition: 35ms;
 }
 body {
     width: 100%;
@@ -52,20 +53,19 @@ header {
 }
 
 .logoPetMain {
-    position: absolute;
-    top: 7rem;
-    left: 50rem;
+  margin-top: 3rem;
+  margin-right: 2rem;
+}
+
+.formulario {
+  position: relative;
 }
 
 .lupa {
     position: absolute;
-    left: 76rem;
-    top: 4.6rem;
+    bottom: 1.5rem;
+    left: 1rem;
     width: 1.7rem;
-}
-
-.centralizarHeader {
-    width: 18rem;
 }
 
 #pesquisa {
@@ -545,7 +545,7 @@ font-family: "Roboto", sans-serif;
 .linha1 {
   width: 80vw;
   height: 55vh;
-  margin-top: 15rem;
+  margin-top: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -594,6 +594,19 @@ span {
   color: #374375;
   background-color: rgb(201, 201, 201);
   box-shadow: 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.233);
+}
+
+.adicionar:active {
+  border-radius: 2rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 3.5rem;
+  color: #374375;
+  transform: translate(2%, 5%);
+  box-shadow: none;
+  background-color: rgb(158, 158, 158);
+  border: 0;
 }
   
 
@@ -718,7 +731,7 @@ span {
   
 .adicionar {
   border: none;
-  }
+}
   
 
 .linha3 > div {
