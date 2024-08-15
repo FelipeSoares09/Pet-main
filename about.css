@@ -18,8 +18,6 @@
 
 body {
   background-color:#fffcf5;
-  width: 100vw;
-  height: 100%;
 }
 
 main {
@@ -82,6 +80,11 @@ main {
 
 /* FIM HEADER E NAV*/
 
+.about{
+  width: 50vw;
+  height: 90vh;
+}
+
 .sobre {
   display: flex;
   margin-top: 5rem;
@@ -92,6 +95,11 @@ main {
 
 .sobre > h1 {
   font-size: 3rem;
+}
+
+strong {
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
 .sobre > p {
@@ -109,21 +117,30 @@ main {
   border-bottom: solid .2rem #374375;
 }
 
-
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
-  height: 20vh;
-  background-color: #89515981;
-  margin-top: 2rem;
 }
 
 .patrocinadores {
+  position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;  
+  background-color: #895159b9;
 }
 
  .logo > img {
-  width: 40rem;
+  width: 15rem;
+}
+
+.autores {
+  font-size: 1.6rem;
+  flex-direction: row;
+  text-align: center;
 }
