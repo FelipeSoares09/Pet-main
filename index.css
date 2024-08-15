@@ -168,6 +168,8 @@ main {
   border-radius: 18px;
   max-width: 22rem;
   font-size: 5rem;
+  padding: .3rem 1rem;
+  font-family: "Rowdies", sans-serif;
 }
 
 .text-carrosel {
