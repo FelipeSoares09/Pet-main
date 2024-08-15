@@ -46,6 +46,12 @@ header {
   height: 5vh;
 }
 
+.categorias_header > nav > ul > li > a {
+  text-decoration: none;
+  color: currentColor;
+  font-size: 2.5rem;
+}
+
 .categoriasHeader {
   border-top: 0.2rem solid rgba(198, 198, 198, 0.562);
   height: 3rem;

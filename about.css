@@ -18,15 +18,15 @@
 
 body {
   background-color:#fffcf5;
+  width: 99vw;
 }
 
 main {
   margin-top: 4rem;
-  padding: 2rem 8rem;
 }
 
 .logoPetMain {
-  width: 16vw;
+  width: 14vw;
 }
 
 .centralizarHeader {
@@ -81,8 +81,12 @@ main {
 /* FIM HEADER E NAV*/
 
 .about{
-  width: 50vw;
   height: 90vh;
+  padding: 1rem 10rem;
+}
+
+.text-about {
+  line-height: 2.4rem;
 }
 
 .sobre {
@@ -95,6 +99,15 @@ main {
 
 .sobre > h1 {
   font-size: 3rem;
+}
+
+.sobre > p >  a {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.sobre > p >  a:hover {
+  border-bottom: .2rem solid #374375;
 }
 
 strong {
@@ -116,31 +129,106 @@ strong {
 .sobre > p > span > a:hover {
   border-bottom: solid .2rem #374375;
 }
+/* FIM TEXTO ABOUT */
+
+.participantes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.participantes_img {
+  display: flex;
+  justify-content: center;
+}
+
+.participantes_img figure {
+  position: relative;
+  width: 32rem;
+  height: 32rem;
+  overflow: hidden;
+  border-radius: 50; /* remova o border-radius para manter a imagem quadrada */
+}
+
+.participantes_img figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.participantes_img figure:hover img {
+  transform: scale(1.2);
+}
+
+.participantes_img figure figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  font-size: 1.6rem;
+}
+
+.participantes_img figure figcaption p {
+  color: white;
+}
+
+.participantes_img figure:hover figcaption {
+  opacity: 1;
+}
+
+.participantes > h2 {
+  font-size: 2.5rem;
+}
+
+/* INICIO FOOTER */
 
 footer {
+  background: #89515981;
+  width: 100%;
+}
+
+.parceiros {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  gap: 4rem;
 }
 
-.patrocinadores {
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;  
-  background-color: #895159b9;
+.text-parceiros {
+  font-size: 1.7rem;
 }
 
- .logo > img {
+.imagens-parceiros > img {
   width: 15rem;
 }
 
+
+.organiza-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.autores > p {
+  font-size: 1.5rem;
+}
+
 .autores {
-  font-size: 1.6rem;
-  flex-direction: row;
   text-align: center;
+}
+
+.autores > p > a {
+  font-size: 1.5rem;
 }
